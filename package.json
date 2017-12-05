@@ -5,7 +5,7 @@
   "scripts": {
     "start": "nf start",
     "build": "babel src -d lib",
-    "postinstall": "webpack-dev-server",
+    "postinstall": "webpack-dev-server"
   },
   "author": "",
   "license": "ISC",
