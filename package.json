@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "app/App.js",
   "scripts": {
-    "start": "webpack-dev-server",
-    "build": "babel src -d lib"
+    "start": "nf start",
+    "build": "babel src -d lib",
+    "postinstall": "webpack-dev-server",
   },
   "author": "",
   "license": "ISC",
