@@ -6,9 +6,8 @@
     "node": "6.11.1"
   },
   "scripts": {
-    "start": "nf start",
-    "build": "babel src -d lib",
-    "postinstall": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "build": "babel src -d lib"
   },
   "author": "",
   "license": "ISC",
